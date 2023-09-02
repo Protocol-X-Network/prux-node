@@ -5,7 +5,7 @@ A protocolx full node for building applications and services with Node.js. A nod
 
 ## Getting Started
 
-1. Install nvm https://github.com/creatiprotocolx/nvm  
+1. Install nvm https://github.com/creationix/nvm  
 
     ```bash
     nvm i v6

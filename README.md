@@ -13,7 +13,7 @@ A protocolx full node for building applications and services with Node.js. A nod
     ```  
 2. Install mongo https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/  
 
-3. Install protocolx-bitcore https://github.com/protocol-x-network/protocolx-bitcore - with ZMQ ! 
+3. Install protocolx-bitcore https://github.com/protocol-x-network/protocolx-core - with ZMQ ! 
 
     ```bash
     # with ZMQ
@@ -22,7 +22,7 @@ A protocolx full node for building applications and services with Node.js. A nod
 4. Install protocolxcore-node  
 
     ```bash
-    npm i https://github.com/protocol-x-network/protocolxcore-node.git#master
+    npm i https://github.com/protocol-x-network/prux-node.git#master
 
     $(npm bin)/protocolxcore-node create mynode
 
@@ -43,7 +43,7 @@ A protocolx full node for building applications and services with Node.js. A nod
         "protocolxd": {
           "spawn": {
             "datadir": "/home/user/.protocolx",
-            "exec": "/home/user/protocolx-bitcore/src/protocolxd"
+            "exec": "/home/user/protocolx-core/src/protocolxd"
           }
         }
       }
@@ -72,7 +72,7 @@ A protocolx full node for building applications and services with Node.js. A nod
 7. Run Node  
 
     ```
-    $(npm bin)/protocolxcore-node start
+    $(npm bin)/prux-node start
     ```  
 
 ## Add-on Services
